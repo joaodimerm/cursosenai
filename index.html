@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Play Fisioterapia Esportiva</title>
+    <style>
+        /* Reset básico */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(to left, rgb(255, 255, 255),#2a9d8f) ;
+            color: #000000;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        nav {
+            background-color: #264653;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: #f4f4f4;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 18px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: inline-block;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            background-color: #2a9d8f;
+            color: white;
+            outline: none;
+        }
+
+        main {
+            flex: 1;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        main h2 {
+            color: #264653;
+            margin-bottom: 12px;
+            border-bottom: 3px solid #2a9d8f;
+            padding-bottom: 6px;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            margin-bottom: 24px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #264653;
+            color: #eee;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 0.9rem;
+            margin-top: auto;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+        }
+
+        /* Responsividade simples */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            main {
+                margin: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Play Fisioterapia Esportiva</h1>
+        <p>Clínica de Fisioterapia Esportiva Localizada em Gravataí</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="sobre.html" target="_blank" rel="noopener noreferrer">Sobre</a>
+        <a href="redesociais.html" target="_blank" rel="noopener noreferrer">Redes Sociais</a>
+        <a href="pagina.html" target="_blank" rel="noopener noreferrer">Serviços</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>Somos uma clínica focada em atendimentos fisioterapêuticos esportivos, recoverys e contamos também com avaliações para identificar sua lesão.</p>
+        </section>
+
+        <section>
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li>@playfisioterapiaesportiva</li>
+                <li>Telefone para contato: (55) 51 98997-1082</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Planos de Fisioterapia com 10 Sessões</li>
+                <li>Avaliações</li>
+                <li>Recoverys</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Play Fisioterapia. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
